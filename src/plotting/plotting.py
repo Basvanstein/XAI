@@ -410,8 +410,8 @@ def make_plot(
         text_baseline="middle",
     )
 
-    p.rect([-40, -40], [30, -10], width=30, height=13, color=list(stat_color.values()))
-    p.rect([-40, -40], [10, -30], width=30, height=1, color=list(error_color.values()))
+    p.rect([-40, -40], [30, -10], width=30, height=13, color=["#4292c6", "#c6dbef"])
+    p.rect([-40, -40], [10, -30], width=30, height=1, color=["#08306b", "#2171b5"])
     p.text(
         [-15, -15, -15, -15],
         [30, 10, -10, -30],
